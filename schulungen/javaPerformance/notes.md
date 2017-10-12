@@ -49,6 +49,7 @@
 - **Verwende LocalDate! Es ist massiv schneller als die alte API.**
 
 ## Garbage Collector
+- Ausgabe wann der GC läuft: -verbose:GC -XX:+PrintGCDetails
 - jedes Objekt hat einen ReferenceCounter, solange dieser nicht 0 ist, bleibt das Objekt bestehen. Ist dieser 0, so kann dieses Objekt gelöscht werden
     - Nachteil: Speicherinseln; Objekte die sich gegenseitig referenzieren werden niemals abgeräumt
     - daher wird es nicht gemacht
