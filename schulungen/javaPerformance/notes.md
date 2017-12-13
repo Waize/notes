@@ -89,7 +89,7 @@
 - versucht in einem bestimmten Zeitraum so viel Speicher wie möglich freizuschaufeln
 - Umsteigen, wenn ich eine bestehende Anwendung mit CMS/Parallel Old GC und vielen Pausenzeiten habe
 
-#Tag 2
+# Tag 2
 
 ## Memory Leaks in Java
 - inner classes
